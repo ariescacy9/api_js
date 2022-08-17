@@ -15,7 +15,7 @@ function cargarFetch(){
         const li = document.createElement("li");
         li.innerHTML = `<div class="tarjeta">
                             <div class="imagen" style='background-image: url(${e.background})'>
-                              <img src=${e.logo} alt="img">
+                              <img src=${e.icon} alt="img">
                             </div>
                             <div class="descripcion">
                               <h3>${e.name} </h3>
